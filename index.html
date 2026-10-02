@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lunavera Homes · New homes on the Costa del Sol</title>
 <meta name="description" content="New-build apartments, villas and investment units between Málaga and Marbella. Demo business for portfolio purposes.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#12324F">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -240,6 +244,10 @@
   @keyframes fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 
   @media (max-width: 1020px) {
+    .hero-inner { padding-bottom: 9.5rem; }
+    .hero-controls { left: 0; right: 0; bottom: 5.25rem; gap: .6rem; }
+    .slide-caption { display: none; }
+    .progress { margin-right: auto; }
     .search { grid-template-columns: 1fr 1fr 1fr; }
     .search h2 { grid-column: 1 / -1; padding: 1.1rem 1.5rem 0; border: 0; }
     .search .btn { grid-column: 1 / -1; border-radius: 0 0 6px 6px; padding: 1.1rem; }
@@ -251,10 +259,6 @@
     :root { --header-h: 64px; }
     .wrap { width: min(1240px, 100% - 2rem); }
     .site-header nav a:not(.btn) { display: none; }
-    .hero-inner { padding-bottom: 9.5rem; }
-    .hero-controls { left: 0; right: 0; bottom: 5.25rem; gap: .6rem; }
-    .slide-caption { display: none; }
-    .progress { margin-right: auto; }
     .search { grid-template-columns: 1fr; }
     .search .sf { border-right: 0; border-bottom: 1px solid var(--line); }
     .steps { grid-template-columns: 1fr; }

@@ -4,7 +4,7 @@ A property landing page for a fictional Costa del Sol developer, built as the fr
 
 > **Lunavera Homes is a fictional business.** All listings, prices and contact details are made up for portfolio purposes.
 
-**Live demo:** https://YOUR-PROJECT.pages.dev
+**Live demo:** https://lunavera-homes.pages.dev
 
 ![Lunavera Homes landing page](docs/screenshot.webp)
 
@@ -90,6 +90,7 @@ Google Sheets lead log + Gmail drafts
 lunavera-homes/
 ├── index.html      # The landing page (HTML, CSS and JS in one file)
 ├── _headers        # Cloudflare Pages security headers and CSP
+├── favicon.svg     # Favicon (plus PNG fallbacks for older browsers and iOS)
 ├── images/         # Optimised WebP photos
 ├── docs/           # Screenshots for this README
 └── README.md
